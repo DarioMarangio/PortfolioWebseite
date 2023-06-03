@@ -1,12 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
   
 }
 html
 {
   background-color: #09032e;
   color: white;
+  content: 1em ;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -20,10 +22,10 @@ body {
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 1em;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.75em 0.75em;
   text-decoration: none;
 }
 
@@ -37,11 +39,10 @@ body {
  .Haupttitel
  {
     text-align: left;
-    margin-top: 1em;
-    margin-left: 1em;
-    margin-bottom: 0.5em;
+    margin: 1em;
     color: #00d2ff;
     font-size: 3em;
+    text-align: center;
  }
  .untertitel
  {
@@ -58,8 +59,8 @@ body {
 
  .hobbypicture
  {
-   height: 5em ;
-   width: 5em;
+   height: 3em ;
+   width: 3em;
  }
 
  .Projektfooter
@@ -74,6 +75,294 @@ body {
    margin:3em;
    margin-bottom: 5em;
  }
+
+
+
+.HobbyGrid {
+   display: grid; 
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-auto-flow: column;
+   height: 100%;
+
+   
+}
+  
+#ProgrammirenTitel {
+
+   background-color: #f7bdf9; 
+   grid-row-start: 1;
+   grid-column-start: 1;
+  
+   grid-row-end: 2;
+   grid-column-end: 4;
+   
+}
+#videospieleTitel {
+
+   background-color: #ff9a5d; 
+   grid-row-start: 1;
+   grid-column-start: 4;
+   
+   grid-row-end: 2;
+   grid-column-end: 7;
+   
+}
+#PwslBild {
+
+   background-color: #69e8ba; 
+   grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 2;
+   
+}
+#CsBild {
+
+   background-color: #a569a8; 
+   grid-row-start: 2;
+   grid-column-start: 2;
+
+   grid-row-end: 3;
+   grid-column-end: 3;
+   
+}
+#HTMLBild {
+
+   background-color: #65debd; 
+   grid-row-start: 2;
+   grid-column-start: 3;
+
+   grid-row-end: 3;
+   grid-column-end: 4;
+   
+}
+#OverwatchBild {
+
+   background-color: #77eeb7; 
+   grid-row-start: 2;
+   grid-column-start: 4;
+
+   grid-row-end: 3;
+   grid-column-end: 5;
+   
+}
+#YakuzaLogo {
+
+   background-color: #7a9f5b; 
+   grid-row-start: 2;
+   grid-column-start: 5;
+
+   grid-row-end: 3;
+   grid-column-end: 6;
+   
+}
+#FahradfahrenTitel {
+
+   background-color: #ba57c6; 
+   grid-row-start: 3;
+   grid-column-start: 1;
+
+   grid-row-end: 4;
+   grid-column-end: 4;
+   
+}
+#SpecializedLogo {
+
+   background-color: #c8975c; 
+   grid-row-start: 4;
+   grid-column-start: 1;
+
+   grid-row-end: 5;
+   grid-column-end: 2;
+   
+}
+#FotografirenLogo {
+
+   background-color: #ab5bde; 
+   grid-row-start: 3;
+   grid-column-start: 4;
+
+   grid-row-end: 4;
+   grid-column-end: 7;
+   
+}
+#CanonLogo {
+
+   background-color: #55c99f; 
+   grid-row-start: 4;
+   grid-column-start: 4;
+
+   grid-row-end: 5;
+   grid-column-end: 5;
+   
+   
+}
+
+.flexbox-panel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.flexbox-item {
+  flex: 0 0 auto;
+}
+
+.fahigkeitenListe{
+
+  padding-top: 1.5em;
+}
+
+
+
+
+
+
+
+.angry-grid {
+   display: grid; 
+
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   
+   gap: 1em;
+   height: 100%;
+   
+   
+   
+   
+}
+  
+#item-0 {
+
+   background-color: #86fea9; 
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 2;
+   
+   
+}
+#item-1 {
+
+   background-color: #c5e59e; 
+   grid-row-start: 1;
+   grid-column-start: 2;
+
+   grid-row-end: 2;
+   grid-column-end: 3;
+   
+}
+#item-2 {
+
+   background-color: #767797; 
+   grid-row-start: 1;
+   grid-column-start: 3;
+
+   grid-row-end: 2;
+   grid-column-end: 4;
+   
+}
+#item-3 {
+
+   background-color: #ff695c; 
+   grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 2;
+   
+}
+#item-4 {
+
+   background-color: #b8ef86; 
+   grid-row-start: 2;
+   grid-column-start: 2;
+
+   grid-row-end: 3;
+   grid-column-end: 3;
+   
+}
+#item-5 {
+
+   background-color: #679db5; 
+   grid-row-start: 2;
+   grid-column-start: 3;
+
+   grid-row-end: 3;
+   grid-column-end: 4;
+   
+   
+}
+
+
+.Projekt{
+  margin-top: 3em;      
+  display: block;  /* iframes are inline by default */   
+  height: 60vh;  /* Set height to 100% of the viewport height */   
+  width: 100vw;  /* Set width to 100% of the viewport width */     
+  border: none; /* Remove default border */
+ 
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+   width: 100%; /* Full width */
+   padding: 1em; /* Some padding */ 
+   
+   border-radius: 1em; /* Rounded borders */
+   box-sizing: border-box; /* Make sure that padding and width stays in place */
+   margin-top: 1em; /* Add a top margin */
+   margin-bottom: 2em; /* Bottom margin */
+   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+ }
+ 
+ /* Style the submit button with a specific background color etc */
+ input[type=submit] {
+   background-color: #04AA6D;
+ 
+   padding: 0.75em 1em;
+   border: none;
+   border-radius: 0.25em;
+   cursor: pointer;
+ }
+ 
+ /* When moving the mouse over the submit button, add a darker green color */
+ input[type=submit]:hover {
+   background-color: #45a049;
+ }
+ 
+ /* Add a background color and some padding around the form */
+ .container {
+   
+   
+   padding: 1em;
+ }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
