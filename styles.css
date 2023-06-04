@@ -166,6 +166,7 @@ html {
 
 .angry-grid {
   display: grid;
+  align-content: center;
 
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -304,8 +305,3 @@ input[type="submit"]:hover {
   align-items: center;
   align-content: center;
 }
-
-
-
-
-
