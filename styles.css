@@ -50,6 +50,10 @@ html {
   height: 3em;
   width: 3em;
 }
+.hobbypictureLarge {
+  height: 2em;
+  width: 4em;
+}
 
 .Projektfooter {
   display: flex;
