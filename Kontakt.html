@@ -1,65 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css" />
-  <title>Document</title>
-</head>
-<body>
-  <header>
-   
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
     <header>
       <nav class="navbar">
-        
         <a href="index.html">über mich</a>
         <a href="fahigkeiten.html">Fähigkeiten</a>
         <a href="Portfolio.html">Portfolio</a>
-        <a style ="background-color: #757575;" href="Kontakt.html">Kontakt</a>
-       
-        
-    
-    
-  </header>
-  <h1 class="Haupttitel">Kontakt</h1>
+        <a href="Kontakt.html">Kontakt</a>
+      </nav>
+    </header>
+    <h1 class="Haupttitel">Kontakt</h1>
 
-  
-
-
-  <ul>
-    <li>E-Mail: dario.marangio@buhlergroup.com</li>
-    <li>Telefon: 0041 77 406 16 46</li>
-    <li>Post </li>
     <ul>
-      <li>Dario Marangio</li>
-      <li>Rebhaldenstrasse 9</li>
-      <li>8580 Amriswil</li>
+      <li>
+        <img
+          class="kontaktImg"
+          src="./Bilder/e-mail.png"
+          alt="e-mail Bild" />E-Mail:
+      </li>
+      <li>dario.marangio@edu.gbssg.com</li>
+      <li></li>
+      <li>
+        <img class="kontaktImg" src="./Bilder/telefon.png" alt="" /> Telefon:
+      </li>
+      <li></li>
+      <li>+41 77 406 16 46</li>
+      <li></li>
+      <li>Post</li>
+      <li></li>
     </ul>
-  </ul>
-  <div class="container">
-    <form action="https://formsubmit.co/70e4a751cd62356005e3ac231adc6b3d" method="POST">
-    
-  
-      <label for="fname">Vorname</label>
-      <input type="text" id="fname" name="firstname" placeholder="Dein Vorname">
-  
-      <label for="lname">Nachname</label>
-      <input type="text" id="lname" name="lastname" placeholder="Dein Nachname">
-  
-      <label for="E-Mail">E-Mail</label>
-      <input type="text" id="E-Mail" name="E-Mail" placeholder="Deine E-Mail Adresse">
-      <label for="text">Text</label>
-      <textarea id="text" name="text" placeholder="Deine Nachricht" ></textarea>
-  
-      <input type="submit" value="Submit">
-    </form>    
-  </div>
-  <div>
-  <iframe class ="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.2291715294054!2d9.269146115870441!3d47.54386827918052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ae4b2799afbdd%3A0x935d444c4a41cbf3!2sRebhaldenstrasse%209%2C%208580%20Amriswil!5e0!3m2!1sde!2sch!4v1679559060839!5m2!1sde!2sch" width="400" height="325" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
+    <div>
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.2291715294054!2d9.269146115870441!3d47.54386827918052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ae4b2799afbdd%3A0x935d444c4a41cbf3!2sRebhaldenstrasse%209%2C%208580%20Amriswil!5e0!3m2!1sde!2sch!4v1679559060839!5m2!1sde!2sch"
+        width="400"
+        height="325"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <h1 class="Haupttitel">Kontaktformular</h1>
+    <div class="container">
+      <form
+        action="https://formsubmit.co/70e4a751cd62356005e3ac231adc6b3d"
+        method="POST">
+        <label for="fname">Vorname</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Dein Vorname" />
 
-</body>
+        <label for="lname">Nachname</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Dein Nachname" />
 
+        <label for="E-Mail">E-Mail</label>
+        <input
+          type="text"
+          id="E-Mail"
+          name="E-Mail"
+          placeholder="Deine E-Mail Adresse" />
+        <label for="text">Text</label>
+        <textarea
+          id="text"
+          name="text"
+          placeholder="Deine Nachricht"></textarea>
+
+        <input type="submit" value="Senden" />
+      </form>
+    </div>
+
+    <footer class="Kontaktfooter">
+      <h1 class="FooterTitle">Social Media</h1>
+      <a class="SocialMedia" href="https://github.com/DarioMarangio">
+        Github
+      </a>
+    </footer>
+  </body>
 </html>
